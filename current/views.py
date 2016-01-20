@@ -11,20 +11,20 @@ def about(request):
 
 def projects(request):
 	context_dict = {}
-	return render(request, 'currrent/projects.html', context_dict)
+	return render(request, 'current/projects.html', context_dict)
 
 def interests(request):
 	context_dict = {}
-	return render(request, 'currrent/interests.html', context_dict)
+	return render(request, 'current/interests.html', context_dict)
 
 def poli(request):
 	context_dict = {}
-	return render(request, 'currrent/poli.html', context_dict)
+	return render(request, 'current/poli.html', context_dict)
 
 def comp(request):
 	context_dict = {}
 	return render(request, 'current/comp.html', context_dict)
 
 def contact(request):
-	context_dict
+	context_dict = {}
 	return render(request, 'current/contact.html', context_dict)

@@ -32,22 +32,38 @@ body h1 {
     font-size: 5vw;
     color: black;
     transform: translate(-50%, -50%) }
+
+
+.fancy {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 75%;
+    height: 30%;
+    text-align: center;
+    margin-right: -50%;
+    font-family: "Lato", sans-serif;
+    background-color: white;
+    color: black;
+    transform: translate(-50%, -50%) }
+    
+    .fancy h2 {
+      font-size: 3vw;
+      padding: 20 px 20 px 20 px 20 px;
+
+    }
+
+    .fancy p {
+      font-size: 12pt;
+      margin: 10px 20px 10px 20px;
+      text-align: left;
+    }
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
-/* Nav bar */
-
-*, *:before, *:after{
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-}
 
 /*| Navigation |*/
 
-@import url(http://fonts.googleapis.com/css?family=Lato);
 
 *, *:before, *:after{
   -webkit-box-sizing: border-box;
